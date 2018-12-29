@@ -64,11 +64,11 @@ class Post extends Model
     /**
      * Scope a query to only include posts posted last month.
      */
-    public function scopeLastMaonth(Builder $query, int $limit = 5): Builder
+    public function scopeLastMonth(Builder $query, int $limit = 5): Builder
     {
-        return $query->whereBetween('posted_at'. [carbon('1 month ago'), now()])
-                        ->latest()
-                        ->limit($limit);
+        return $query->whereBetween('posted_at', [carbon('1 month ago'), now()])
+                     ->latest()
+                     ->limit($limit);
     }
 
     /**
