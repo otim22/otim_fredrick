@@ -1,9 +1,11 @@
 <?php
 
-use App\Role;
-use App\Post;
 use App\Comment;
+use App\Post;
+use App\Role;
+use App\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -39,7 +41,7 @@ class DatabaseSeeder extends Seeder
                  'author_id' => $user->id
              ],
              [
-                 'posted_id' => now(),
+                 'posted_at' => now(),
                  'content' => "
                     Welcome to Laravel-blog !<br><br>
                     Don't forget to read the README before starting.<br><br>
@@ -55,10 +57,10 @@ class DatabaseSeeder extends Seeder
                   'post_id' => $post->id
               ],
               [
-                  'posted_id' => now(),
+                  'posted_at' => now(),
                   'content' => "Hey ! I'm a comment as example."
               ]
           );
-          
+
     }
 }

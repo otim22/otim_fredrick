@@ -15,7 +15,7 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(User::class, function (Faker $faker) {
+$factory->define(Post::class, function (Faker $faker) {
     return [
         'title' => $faker->sentence,
         'content' => $faker->paragraph,

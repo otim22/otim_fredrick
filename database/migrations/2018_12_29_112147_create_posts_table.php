@@ -19,7 +19,7 @@ class CreatePostsTable extends Migration
             $table->integer('author_id')->unsigned()->default(0);
             $table->string('title');
             $table->text('content');
-            $table->datetime('posted_at');
+            $table->datetime('posted_at')->nullable();
 
             $table->timestamps();
 

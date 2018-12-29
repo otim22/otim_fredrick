@@ -1,6 +1,6 @@
 <?php
 
-use App\NewsletterlSubscription;
+use App\NewsletterSubscription;
 use Faker\Generator as Faker;
 
 /*
@@ -14,7 +14,7 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(NewsletterlSubscription::class, function (Faker $faker) {
+$factory->define(NewsletterSubscription::class, function (Faker $faker) {
     return [
         'email' => $faker->unique()->safeEmail
     ];
