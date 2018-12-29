@@ -47,17 +47,17 @@ class User extends Authenticatable implements MustVerifyEmailContract
     {
         return $query->whereHas('roles', function ($query) {
             $query->where('roles.name', Role::ROLE_ADMIN)
-                    ->orWhere('roles.name', ROLE_EDITOR);
+                    ->orWhere('roles.name', Role::ROLE_EDITOR);
         });
     }
 
     /**
      * Check if the user can be an author
      */
-    // public function canBeAuthor(): bool
-    // {
-    //     return $this->isAdmin() || $this->isEditor();
-    // }
+    public function canBeAuthor(): bool
+    {
+        return $this->isAdmin() || $this->isEditor();
+    }
 
     /**
      * Check if the user has a role
