@@ -233,6 +233,16 @@ body {
   margin-top: -150px;
 }
 
+.navigation {
+  display: grid;
+  grid-row: 1;
+  grid-column: 1/4;
+  z-index: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .navigation__list {
   display: flex;
   position: relative;
