@@ -1,5 +1,4 @@
 // COLORS
-
 // Blue Grey
 $color-primary: #37474f;
 $color-primary-light: #eceff1;
@@ -15,6 +14,7 @@ $color-primary-dark: #263238;
 
 // Grey
 $color-grey-light: #fafafa;
+$color-grey-medium: #9e9e9e;
 $color-grey-dark: #212121;
 
 $color-white: #fff;
@@ -24,8 +24,10 @@ $color-black: #000;
 /* Full grid area variable */
 // --fullGrid: 1 / 1 / -1 / -1;
 
-// FONT
+// FONT VARIABLES
 $default-font-size: 1.6rem;
+
+$font-display: 'Lato', sans-serif;
 
 // GRID
 $grid-width: 114rem;

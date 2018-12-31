@@ -9,15 +9,10 @@
             @include('includes.navbar')
         </navbar>
 
-        <header class="header">
-            @include('includes.header')
-        </header>
-
         <main>
             <section class="section-home">
                 @yield('content')
             </section>
-
         </main>
 
         <footer class="footer">
