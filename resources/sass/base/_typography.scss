@@ -1,6 +1,5 @@
 %heading {
     font-family: $font-display;
-    color: $color-white;
 }
 
 .heading-1 {
@@ -21,8 +20,29 @@
     @extend %heading;
     font-weight: 100;
     font-style: italic;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    color: $color-white;
 }
+
+.heading-4 {
+    font-weight: 100;
+    font-size: 2.5rem;
+    color: $color-white;
+}
+
+.heading-5 {
+    font-weight: 100;
+    font-size: 1.8rem;
+}
+
+.heading-6 {
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.mt-sm { margin-top: 2rem; }
+
+.mt-md { margin-top: 3rem; }
 
 .mb-sm { margin-bottom: 2rem; }
 
