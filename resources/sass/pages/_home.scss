@@ -2,28 +2,67 @@
     background-color: $color-grey-light;
 }
 
-.section-articles {
-    background-color: #039be5;
-}
+.subcription {
+    background-color: $color-white;
 
-.section-about {
-    background-color: #00897b;
-}
+    &__row {
+        padding: 120px;
+        text-align: center;
+    }
 
-.section-projects {
-    background-color: #c0ca33;
-}
+    &__menu {
+        flex: 0 0 40%;
 
-.section-contact {
-    background-color: #ffb300;
-}
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-.section-resources {
-    background-color: #f4511e;
-}
+        &-input {
+            font-family: inherit;
+            font-size: 2.5em;
+            color: inherit;
+            background-color: $color-grey-light-2;
+            border: none;
+            padding: 1.5rem 2rem;
+            border-radius: 25px;
+            width: 60%;
+            transition: all .2s;
+            margin-right: -4rem;
 
-.section-patreon {
-    background-color: #1a237e;
+            &:focus {
+                outline: none;
+                width: 70%;
+                background-color: $color-grey-light;
+            }
+
+            &::-webkit-input-palceholder {
+                font-weight: 100;
+                color: $color-grey-light;
+            }
+        }
+
+        &-button {
+            align-self: stretch;
+            width: 130px;
+            border: 0;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            background-color: $color-orange;
+            font-size: 2.5em;
+            cursor: pointer;
+
+            &:focus, &:hover {
+                color: $color-white;
+                outline: none;
+            }
+
+            &:active {
+                color: $color-white;
+                transform: translateY(2px);
+            }
+        }
+    }
+
 }
 
 .footer {

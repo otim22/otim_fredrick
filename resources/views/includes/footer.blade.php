@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-1-of-4">
-        <div class="content mt-md">
+        <div class="content content__footer content__footer mt-md">
             <h1 class="mb-sm heading-4">Projects</h1>
             <ul class="ul__footer-list">
                 <li class="mb-sm heading-5">
@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="col-1-of-4">
-        <div class="content mt-md">
+        <div class="content content__footer mt-md">
             <h1 class="mb-sm heading-4">Articles</h1>
             <ul class="ul__footer-list">
                 <li class="mb-sm heading-5">
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="col-1-of-4">
-        <div class="content mt-md">
+        <div class="content content__footer mt-md">
             <h1 class="mb-sm heading-4">Contact</h1>
             <ul class="ul__footer-list">
                 <li class="mb-sm heading-5">
@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="col-1-of-4">
-        <div class="content mt-md">
+        <div class="content content__footer mt-md">
             <h1 class="mb-sm heading-4">Connect </h1>
             <div class="wrapper">
                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-github"></i></a>

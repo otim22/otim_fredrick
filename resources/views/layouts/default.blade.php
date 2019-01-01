@@ -22,5 +22,7 @@
         <div class="popup">
 
         </div>
+
+        <script  href="{{ asset('/js/app.js') }}"></script>
     </body>
 </html>

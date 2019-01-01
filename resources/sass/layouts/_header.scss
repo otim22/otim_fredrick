@@ -8,10 +8,16 @@
 
     &__text {
         margin: 320px 250px;
-        text-align: justify;
 
         &-1 {
             margin-top: -150px;
+        }
+
+        &-2 {
+            text-align: justify;
+            font-style: italic;
+            color: $color-white;
+            font-weight: 100;
         }
     }
 
