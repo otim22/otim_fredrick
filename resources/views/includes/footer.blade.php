@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-1-of-4">
-        <div class="content content__footer content__footer mt-md">
+        <div class="content content__footer mt-md">
             <h1 class="mb-sm heading-4">Projects</h1>
             <ul class="ul__footer-list">
                 <li class="mb-sm heading-5">
@@ -44,18 +44,18 @@
     <div class="col-1-of-4">
         <div class="content content__footer mt-md">
             <h1 class="mb-sm heading-4">Connect </h1>
-            <div class="wrapper">
+            <div class="footer__social">
                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-github"></i></a>
                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter"></i></a>
                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-linkedin"></i></a>
-               <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-google-plus"></i></a>
+               <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-medium"></i></a>
                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook"></i></a>
             </div>
         </div>
     </div>
 </div>
 
-<hr class="hr__footer" data-content="WITH LOVE">
+<hr class="footer__divider" data-content="WITH LOVE">
 
 <div class="row">
     <p class="copyright mt-sm mb-sm heading-6">

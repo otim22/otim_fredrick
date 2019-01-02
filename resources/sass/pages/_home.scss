@@ -1,7 +1,23 @@
+/* Overall section style starts here */
 .section-home {
     background-color: $color-grey-light;
 }
+/* Overall section style ends here */
 
+/* First quote Style starts here */
+.quote {
+    background-color: $color-white;
+
+    &__row {
+        padding: 120px;
+        text-align: center;
+        font-style: italic;
+        font-weight: 100;
+    }
+}
+/* First quote Style ends here */
+
+/* subscription style starts here */
 .subcription {
     background-color: $color-white;
 
@@ -62,9 +78,73 @@
             }
         }
     }
+}
+/* subscription style ends here */
 
+/*  About Styles hr in about otim starts here */
+.about__divider {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double $color-black;
+    color: $color-black;
+    text-align: center;
+    width:80%;
+    margin: 0 auto
 }
 
-.footer {
-    background-color: $color-grey-medium;
+.about__divider:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
 }
+/*  About Styles hr in about otim ends here */
+
+/* Second quote Style starts here */
+.quote__divider {
+    border: 0;
+    height: 1.5px;
+    text-align: center;
+    width:50%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/* Second quote Style ends here */
+
+/* About image Style starts here */
+.otim-circle {
+    border-radius: 60%;
+}
+/* About image ends here */
+
+/* About social Style ends here */
+.about__social {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.about__social i {
+  padding: 10px;
+  color: $color-black;
+  transition: all ease-in-out 150ms;
+}
+
+.about__social i:hover, i:active {
+  margin-top: -3px;
+  color: $color-grey-medium;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+/* About social Style ends here */
+
+/* Second quote Style starts here */
+.quote__img {
+  background-image: url(../../../public/img/book.jpg);
+  color: $color-white;
+  background-attachment: fixed, scroll;
+  background-repeat: no-repeat, repeat-y;
+}
+/* Second quote Style ends here */

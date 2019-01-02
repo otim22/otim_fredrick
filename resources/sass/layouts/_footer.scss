@@ -1,40 +1,49 @@
-.wrapper {
+/*  Overall footer style starts here */
+.footer {
+    background-color: $color-grey-deep;
+}
+/*  Overall footer style ends here */
+
+/*  Social style starts here */
+.footer__social {
   display: inline-flex;
   justify-content: center;
 }
 
-.wrapper i {
+.footer__social i {
   padding: 10px;
   text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
   transition: all ease-in-out 150ms;
 }
 
-.wrapper a:nth-child(1) {
+.footer__social a:nth-child(1) {
   color: $color-black;
 }
 
-.wrapper a:nth-child(2) {
+.footer__social a:nth-child(2) {
   color: $color-blue-light;
 }
 
-.wrapper a:nth-child(3) {
+.footer__social a:nth-child(3) {
   color: $color-blue-medium;
 }
 
-.wrapper a:nth-child(4) {
-  color: $color-red;
+.footer__social a:nth-child(4) {
+  color: $color-teal-medium;
 }
 
-.wrapper a:nth-child(5) {
+.footer__social a:nth-child(6) {
   color: $color-blue-dark;
 }
 
-.wrapper i:hover {
+.footer__social i:hover {
   margin-top: -3px;
   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
 }
+/*  Social style ends here */
 
-.hr__footer {
+/*  Footer divider style starts here */
+.footer__divider {
   line-height: 1em;
   position: relative;
   outline: 0;
@@ -65,7 +74,9 @@
     background-color: $color-grey-light
   }
 }
+/*  Footer divider style ends here */
 
+/*  Content style starts here */
 .content__footer {
     color: $color-white;
 }
@@ -84,7 +95,9 @@
         color: $color-grey-light-2;
     }
 }
+/*  Content style ends here */
 
+/*  Copyright style starts here */
 .copyright {
     text-align: center;
     color: $color-grey-light;
@@ -101,3 +114,4 @@
         color: $color-grey-light-2;
     }
 }
+/*  Copyright style ends here */
