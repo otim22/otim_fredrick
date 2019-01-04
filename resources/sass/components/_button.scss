@@ -14,7 +14,6 @@
         position: relative;
         font-size: $default-font-size;
 
-        // Change for the <button> element
         border: none;
         cursor: pointer;
     }
@@ -62,6 +61,34 @@
         left: 0;
         z-index: -1;
         transition: all .4s;
+    }
+
+    &__gallery {
+        font-family: Lato;
+        font-size: 1rem;
+        font-weight: normal;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        line-height: normal;
+        padding: .5rem 1rem;
+        margin: 0;
+        height: auto;
+        border: 1px solid;
+        vertical-align: middle;
+        -webkit-appearance: none;
+        color: $color-black;
+        background-color: $color-grey-light;
+
+        &:hover {
+          text-decoration: none;
+        }
+
+        &:focus {
+          outline: none;
+          border-color: $color-blue-dark;
+          box-shadow: 0 0 0 3px $color-grey-deep;
+        }
     }
 
     &__header {

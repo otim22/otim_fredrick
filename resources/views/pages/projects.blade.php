@@ -3,92 +3,99 @@
 @section('content')
 
 <section class="section-projects">
-    <div class="row">
-        <div class="projects-title">
-            <h1 class="heading-4">Lorem ipsum dolor sit amet, an his etiam torquatos.
-            Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.</h1>
-        </div>
-    </div>
 
     <div class="row">
-        <div class="heading mb-md">
-            <button class="btn category" href="" data-rel="all">All</button>
-            <button class="btn category" data-rel="html-css">Html5/Css3</button>
-            <button class="btn category" data-rel="react">React</button>
-            <button class="btn category" data-rel="laravel">Laravel</button>
-        </div>
-    <!-- </div>
+        <h1 class="heading-3 mb-sm">My projects</h1>
+        <h1 class="heading-5 mb-md">Some of my most recent works.</h1>
+        <hr class="projects__divider mb-md">
+        <!-- <div class="heading mb-md">
+            <button class="btn btn__gallery category" href="" data-rel="all">All</button>
+            <button class="btn btn__gallery category" data-rel="html-css">Html5/Css3</button>
+            <button class="btn btn__gallery category" data-rel="react">React</button>
+            <button class="btn btn__gallery category" data-rel="laravel">Laravel</button>
+        </div> -->
 
-    <div class="row"> -->
         <div class="projects__gallery">
 
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/2-mon_1092-300x234.jpg" alt="" />
+            <div class="projects__gallery-item projects__gallery-effect project__animation html-css all">
+
+                <img src="{{ asset('img/projects/project_3.jpeg') }}" class="project__gallery-image" alt="Face recognition Brain">
+
+                <div class="mask">
+                    <h3 class="heading-4">Face recognition Brain</h3>
+                    <p class="heading-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="https://facerecognition-brain-app.herokuapp.com/" class="btn btn__gallery">Click Demo</a>
+                </div>
+
             </div>
 
-            <div class="projects__gallery-item project__animation react all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/jti-icons_08-300x172.jpg" alt="" />
+            <div class="projects__gallery-item projects__gallery-effect project__animation react all">
+
+                <img src="{{ asset('img/projects/project_6.jpeg') }}" class="project__gallery-image" alt="Roboto friends">
+
+                <div class="mask">
+                    <h3 class="heading-4">Roboto Friends</h3>
+                    <p class="heading-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="https://github.com/otim22/robofriends" class="btn btn__gallery">Click Demo</a>
+                </div>
             </div>
 
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />
+            <div class="projects__gallery-item projects__gallery-effect project__animation html-css all">
+
+                <img src="{{ asset('img/projects/project_4.jpeg') }}"class="project__gallery-image" alt="Roboto-pwa">
+
+                <div class="mask">
+                    <h3 class="heading-4">Roboto PWA</h3>
+                    <p class="heading-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="https://github.com/otim22/roboto-pwa" class="btn btn__gallery">Click Demo</a>
+                </div>
             </div>
 
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/codystretch-300x270.jpg" alt="" />
+            <div class="projects__gallery-item projects__gallery-effect project__animation html-css all">
+
+                <img src="{{ asset('img/projects/project_1.png') }}" class="project__gallery-image" alt=" Face Recognition Api">
+
+                <div class="mask">
+                    <h3 class="heading-4">Face Recognition Api</h3>
+                    <p class="heading-5">
+                      Lorem ipsum dolor sit amet.
+                    </p>
+                    <a href="https://github.com/otim22/facerecognitionbrain-api" class="btn btn__gallery">Click Demo</a>
+                </div>
             </div>
 
-            <div class="projects__gallery-item project__animation laravel all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
+            <div class="projects__gallery-item projects__gallery-effect project__animation laravel all">
+
+                <img src="{{ asset('img/projects/project_2.jpeg') }}" class="project__gallery-image" alt="Hex Color generator">
+
+                <div class="mask">
+                    <h3 class="heading-4">Hex Color generator</h3>
+                    <p class="heading-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="https://github.com/otim22/bg-color-generator" class="btn btn__gallery">Click Demo</a>
+                </div>
             </div>
 
-            <div class="projects__gallery-item project__animation react all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
+            <div class="projects__gallery-item projects__gallery-effect project__animation react all">
+
+                <img src="{{ asset('img/projects/project_6.jpeg') }}" class="project__gallery-image" alt="Jangle">
+
+                <div class="mask">
+                    <h3 class="heading-4">Jangle</h3>
+                    <p class="heading-5">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <a href="https://github.com/otim22/pic-gallery" class="btn btn__gallery">Click Demo</a>
+                </div>
             </div>
 
-            <div class="projects__gallery-item project__animation laravel all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/jti-icons_08-300x172.jpg" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation laravel all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/transmission_01-300x300.jpg" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation laravel all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/the-ninetys-brand_02-300x300.jpg" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation react all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/15-dia_1092-1-300x300.jpg" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation react all">
-                 <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/emi_haze-300x201.jpg" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="http://demo.themerain.com/charm/wp-content/uploads/2015/04/transmission_01-300x300.jpg" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation html-css all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97190&w=350&h=190" alt="" />
-            </div>
-
-            <div class="projects__gallery-item project__animation react all">
-                <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97290&w=200&h=290" alt="" />
-            </div>
         </div>
 
         <div style="clear:both;"></div>

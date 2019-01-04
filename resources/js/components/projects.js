@@ -12,8 +12,10 @@ $(function() {
         setTimeout(function() {
             $("."+selectedClass).fadeIn().addClass('project__animation');
             $(".projects__gallery").fadeTo(300, 1);
+            // $(".projects__gallery div").fadeIn();
         }, 300);
 
 	});
+
 
 });
