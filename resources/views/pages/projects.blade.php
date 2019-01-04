@@ -6,7 +6,7 @@
 
     <div class="row">
         <h1 class="heading-3 mb-sm">My projects</h1>
-        <h1 class="heading-5 mb-md">Some of my most recent works.</h1>
+        <h2 class="heading-5 mb-md">Some of my most recent works.</h1>
         <hr class="projects__divider mb-md">
         <!-- <div class="heading mb-md">
             <button class="btn btn__gallery category" href="" data-rel="all">All</button>
@@ -26,7 +26,7 @@
                     <p class="heading-5">
                       A face recognition react application consuming ClarifaiFace Api.
                     </p>
-                    <a href="https://facerecognition-brain-app.herokuapp.com/" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://facerecognition-brain-app.herokuapp.com/" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
 
             </div>
@@ -40,7 +40,7 @@
                     <p class="heading-5">
                       A tour travel application template using flex box.
                     </p>
-                    <a href="https://otim22.github.io/pearl-tours/" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://otim22.github.io/pearl-tours/" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
                     <p class="heading-5">
                       Progressive Web application concepts taking app offline.
                     </p>
-                    <a href="https://github.com/otim22/roboto-pwa" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://github.com/otim22/roboto-pwa" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
                     <p class="heading-5">
                       A booking application template using grid css and  flex box.
                     </p>
-                    <a href="https://otim22.github.io/trillo/" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://otim22.github.io/trillo/" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
                     <p class="heading-5">
                       Back-end server for the face recognition.
                     </p>
-                    <a href="https://github.com/otim22/facerecognitionbrain-api" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://github.com/otim22/facerecognitionbrain-api" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -92,7 +92,7 @@
                     <p class="heading-5">
                       A random hex color gradient generator application in background.
                     </p>
-                    <a href="https://github.com/otim22/bg-color-generator" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://github.com/otim22/bg-color-generator" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                     <p class="heading-5">
                       A real estate html5/css3 template diplaying homes using grid css and flex box.
                     </p>
-                    <a href="https://otim22.github.io/nexter-lux/" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://otim22.github.io/nexter-lux/" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -118,7 +118,7 @@
                     <p class="heading-5">
                       A basic html5 and css3 image gallery application.
                     </p>
-                    <a href="https://github.com/otim22/pic-gallery" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://github.com/otim22/pic-gallery" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
 
@@ -131,12 +131,14 @@
                     <p class="heading-5">
                       A react application understanding react concepts.
                     </p>
-                    <a href="https://otim22.github.io/smartbrain/" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://otim22.github.io/smartbrain/" class="btn btn__gallery" target="_blank">Click Demo</a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div style="clear:both;"></div>
+    <div class="row">
+        <a href="https://github.com/otim22" class="btn btn__gallery" target="_blank">More projects</a>
     </div>
 </section>
 
