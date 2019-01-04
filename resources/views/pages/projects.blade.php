@@ -24,7 +24,7 @@
                 <div class="mask">
                     <h3 class="heading-4">Face recognition Brain</h3>
                     <p class="heading-5">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      A face recognition react application consuming ClarifaiFace Api.
                     </p>
                     <a href="https://facerecognition-brain-app.herokuapp.com/" class="btn btn__gallery">Click Demo</a>
                 </div>
@@ -33,14 +33,14 @@
 
             <div class="projects__gallery-item projects__gallery-effect project__animation react all">
 
-                <img src="{{ asset('img/projects/project_6.jpeg') }}" class="project__gallery-image" alt="Roboto friends">
+                <img src="{{ asset('img/projects/project_8.png') }}" class="project__gallery-image" alt="Pearls Of Africa">
 
                 <div class="mask">
-                    <h3 class="heading-4">Roboto Friends</h3>
+                    <h3 class="heading-4">Pearls Of Africa</h3>
                     <p class="heading-5">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      A tour travel application template using flex box.
                     </p>
-                    <a href="https://github.com/otim22/robofriends" class="btn btn__gallery">Click Demo</a>
+                    <a href="https://otim22.github.io/pearl-tours/" class="btn btn__gallery">Click Demo</a>
                 </div>
             </div>
 
@@ -51,9 +51,22 @@
                 <div class="mask">
                     <h3 class="heading-4">Roboto PWA</h3>
                     <p class="heading-5">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Progressive Web application concepts taking app offline.
                     </p>
                     <a href="https://github.com/otim22/roboto-pwa" class="btn btn__gallery">Click Demo</a>
+                </div>
+            </div>
+
+            <div class="projects__gallery-item projects__gallery-effect project__animation react all">
+
+                <img src="{{ asset('img/projects/project_9.png') }}" class="project__gallery-image" alt="Trillo">
+
+                <div class="mask">
+                    <h3 class="heading-4">Trillo</h3>
+                    <p class="heading-5">
+                      A booking application template using grid css and  flex box.
+                    </p>
+                    <a href="https://otim22.github.io/trillo/" class="btn btn__gallery">Click Demo</a>
                 </div>
             </div>
 
@@ -64,7 +77,7 @@
                 <div class="mask">
                     <h3 class="heading-4">Face Recognition Api</h3>
                     <p class="heading-5">
-                      Lorem ipsum dolor sit amet.
+                      Back-end server for the face recognition.
                     </p>
                     <a href="https://github.com/otim22/facerecognitionbrain-api" class="btn btn__gallery">Click Demo</a>
                 </div>
@@ -77,7 +90,7 @@
                 <div class="mask">
                     <h3 class="heading-4">Hex Color generator</h3>
                     <p class="heading-5">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      A random hex color gradient generator application in background.
                     </p>
                     <a href="https://github.com/otim22/bg-color-generator" class="btn btn__gallery">Click Demo</a>
                 </div>
@@ -85,17 +98,42 @@
 
             <div class="projects__gallery-item projects__gallery-effect project__animation react all">
 
-                <img src="{{ asset('img/projects/project_6.jpeg') }}" class="project__gallery-image" alt="Jangle">
+                <img src="{{ asset('img/projects/project_7.png') }}" class="project__gallery-image" alt="Jangle">
+
+                <div class="mask">
+                    <h3 class="heading-4">Nexter Luxury homes</h3>
+                    <p class="heading-5">
+                      A real estate html5/css3 template diplaying homes using grid css and flex box.
+                    </p>
+                    <a href="https://otim22.github.io/nexter-lux/" class="btn btn__gallery">Click Demo</a>
+                </div>
+            </div>
+
+            <div class="projects__gallery-item projects__gallery-effect project__animation react all">
+
+                <img src="{{ asset('img/projects/project_5.jpeg') }}" class="project__gallery-image" alt="Jangle">
 
                 <div class="mask">
                     <h3 class="heading-4">Jangle</h3>
                     <p class="heading-5">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      A basic html5 and css3 image gallery application.
                     </p>
                     <a href="https://github.com/otim22/pic-gallery" class="btn btn__gallery">Click Demo</a>
                 </div>
             </div>
 
+            <div class="projects__gallery-item projects__gallery-effect project__animation react all">
+
+                <img src="{{ asset('img/projects/project_6.jpeg') }}" class="project__gallery-image" alt="Roboto friends">
+
+                <div class="mask">
+                    <h3 class="heading-4">Roboto Friends</h3>
+                    <p class="heading-5">
+                      A react application understanding react concepts.
+                    </p>
+                    <a href="https://otim22.github.io/smartbrain/" class="btn btn__gallery">Click Demo</a>
+                </div>
+            </div>
         </div>
 
         <div style="clear:both;"></div>
