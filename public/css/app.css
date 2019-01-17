@@ -660,9 +660,6 @@ textarea.input-field {
 
 /* Overall section style ends here */
 /* First quote Style starts here */
-.quote {
-  background-color: #fff;
-}
 .quote__row {
   padding: 120px;
   text-align: center;
@@ -892,5 +889,18 @@ textarea.input-field {
 }
 
 .section-resources {
-  background-color: #f4511e;
+  background-color: #fafafa;
+}
+
+.resources-header {
+  background-color: #fafafa;
+}
+.resources-header__row {
+  padding: 50px;
+  text-align: center;
+}
+
+.resource-title {
+  background-color: #fff;
+  padding-bottom: 40px;
 }

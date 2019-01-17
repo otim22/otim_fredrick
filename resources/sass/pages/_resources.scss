@@ -1,3 +1,17 @@
 .section-resources {
-    background-color: #f4511e;
+    background-color: $color-grey-light;
+}
+
+.resources-header {
+    background-color: $color-grey-light;
+
+    &__row {
+        padding: 50px;
+        text-align: center;
+    }
+}
+
+.resource-title {
+    background-color: $color-white;
+    padding-bottom: 40px;
 }
