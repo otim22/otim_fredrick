@@ -6,12 +6,16 @@
     background-color: $color-grey-light;
 
     &__row {
-        padding: 50px;
+        padding: 4rem;
         text-align: center;
     }
 }
 
 .resource-title {
     background-color: $color-white;
-    padding-bottom: 40px;
+    padding-bottom: 4rem;
+
+    &__heading {
+        padding-top: 5rem;
+    }
 }

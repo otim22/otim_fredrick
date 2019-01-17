@@ -9,7 +9,7 @@
 <section class="section-home">
     <div class="quote">
         <div class="row quote__row">
-            <p class="heading-3">
+            <p class="heading-3 ">
                 Lorem ipsum dolor sit amet, an his etiam torquatos.
                 Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur.
                 Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.

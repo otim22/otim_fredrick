@@ -87,6 +87,20 @@ body {
   font-size: 1.5rem;
 }
 
+.resource-title__heading {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.mr {
+  text-align: right;
+}
+
+.ml {
+  text-align: left;
+}
+
 .mt-sm {
   margin-top: 2rem;
 }
@@ -896,11 +910,14 @@ textarea.input-field {
   background-color: #fafafa;
 }
 .resources-header__row {
-  padding: 50px;
+  padding: 4rem;
   text-align: center;
 }
 
 .resource-title {
   background-color: #fff;
-  padding-bottom: 40px;
+  padding-bottom: 4rem;
+}
+.resource-title__heading {
+  padding-top: 5rem;
 }
