@@ -6,6 +6,7 @@ use App\Comment;
 use Faker\Factory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
+use Carbon\Carbon;
 
 class CommentTest extends TestCase
 {
@@ -14,37 +15,38 @@ class CommentTest extends TestCase
     public function testPostedAt()
     {
         $comment = factory(Comment::class)->create();
-        $this->assertEquals($comment->posted_at->toDateTimeString(), now()->toDateTimeString());
+
+        $this->assertEquals(Carbon::now()->toDayDateTimeString(), $comment->created_at->toDayDateTimeString());
     }
 
-    // public function testGettingOnlyLastWeekComments()
-    // {
-    //     $faker = Factory::create();
-    //
-    //     // Older Comments
-    //     factory(Comment::class, 3)
-    //             ->create()
-    //             ->each(function ($comment) use ($faker) {
-    //                 $comment->posted_at = $faker->dateTimeBetween(carbon('3 months ago'), carbon('2 months ago'));
-    //                 $comment->save();
-    //             });
-    //
-    //     // Newer Comments
-    //     factory(Comment::class, 3)
-    //             ->create()
-    //             ->each(function ($comment) use ($faker) {
-    //                 $comment->posted_at = $faker->dateTimeBetween(carbon('1 week ago'), now());
-    //                 $comment->save();
-    //             });
-    //
-    //     $isDuringLastWeek = true;
-    //     foreach (Comment::lastWeek()->get() as $comment) {
-    //         $isDuringLastWeek = $comment->posted_at->between(carbon('1 week ago'), now());
-    //         if (! $isDuringLastWeek) {
-    //             break;
-    //         }
-    //     }
-    //
-    //     $this->assertTrue($isDuringLastWeek);
-    // }
+    public function testGettingOnlyLastWeekComments()
+    {
+        $faker = Factory::create();
+
+        // Older Comments
+        factory(Comment::class, 3)
+                ->create()
+                ->each(function ($comment) use ($faker) {
+                    $comment->posted_at = $faker->dateTimeBetween(Carbon::now()->subMonth(2), Carbon::now());
+                    $comment->save();
+                });
+
+        // Newer Comments
+        factory(Comment::class, 3)
+                ->create()
+                ->each(function ($comment) use ($faker) {
+                    $comment->posted_at = $faker->dateTimeBetween(Carbon::now()->subWeek(1), Carbon::now());
+                    $comment->save();
+                });
+
+        $isDuringLastWeek = true;
+        foreach (Comment::lastWeek()->get() as $comment) {
+            $isDuringLastWeek = $comment->posted_at->between(Carbon::now()->subWeek(1), Carbon::now());
+            if (! $isDuringLastWeek) {
+                break;
+            }
+        }
+
+        $this->assertTrue($isDuringLastWeek);
+    }
 }

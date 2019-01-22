@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Carbon\Carbon;
 
 class Post extends Model
 {
@@ -66,7 +67,7 @@ class Post extends Model
      */
     public function scopeLastMonth(Builder $query, int $limit = 5): Builder
     {
-        return $query->whereBetween('posted_at', [carbon('1 month ago'), now()])
+        return $query->whereBetween('posted_at', [Carbon::now()->subMonth(), now()])
                      ->latest()
                      ->limit($limit);
     }
@@ -76,7 +77,7 @@ class Post extends Model
      */
     public function scopeLastWeek(Builder $query): Builder
     {
-        return $query->whereBetween('posted_at', [carbon('1 week ago'), now()])
+        return $query->whereBetween('posted_at', [Carbon::now()->subWeek(), now()])
                         ->latest();
     }
 

@@ -29,7 +29,7 @@ class PostTest extends TestCase
         factory(Post::class, 3)
             ->create()
             ->each(function ($post) use ($faker) {
-                $post->posted_at = $faker->dateTimeBetween(carbon('3 months'), carbon('2 months'));
+                $post->posted_at = $faker->dateTimeBetween(Carbon::now()->subMonth(3), Carbon::now()->subMonth(2));
                 $post->save();
             });
 
@@ -37,13 +37,13 @@ class PostTest extends TestCase
         factory(Post::class, 3)
             ->create()
             ->each(function ($post) use ($faker) {
-                $post->posted_at = $faker->dateTimeBetween(carbon('3 weeks'), carbon('2 weeks'));
+                $post->posted_at = $faker->dateTimeBetween(Carbon::now(), Carbon::now()->addWeek(2));
                 $post->save();
             });
 
         $isDuringLastMonth = true;
         foreach (Post::lastMonth()->get() as $post) {
-            $isDuringLastMonth = $post->posted_at->between(carbon('1 month'), now());
+            $isDuringLastMonth = $post->posted_at->between(Carbon::now()->subMonth(), Carbon::now());
 
             if (! $isDuringLastMonth) {
                 break;
@@ -61,7 +61,7 @@ class PostTest extends TestCase
         factory(Post::class, 3)
                 ->create()
                 ->each(function ($post) use ($faker) {
-                    $post->posted_at = $faker->dateTimeBetween(carbon('3 months ago'), carbon('2 months ago'));
+                    $post->posted_at = $faker->dateTimeBetween(Carbon::now()->subWeek(2), Carbon::now());
                     $post->save();
                 });
 
@@ -69,13 +69,13 @@ class PostTest extends TestCase
         factory(Post::class, 3)
                 ->create()
                 ->each(function ($post) use ($faker) {
-                    $post->posted_at = $faker->dateTimeBetween(carbon('1 week ago'), now());
+                    $post->posted_at = $faker->dateTimeBetween(Carbon::now(), Carbon::now()->addWeek());
                     $post->save();
                 });
-                
+
         $isDuringLastWeek = true;
         foreach (Post::lastWeek()->get() as $post) {
-            $isDuringLastWeek = $post->posted_at->between(carbon('1 week ago'), now());
+            $isDuringLastWeek = $post->posted_at->between(Carbon::now()->subWeek(), Carbon::now());
             if (! $isDuringLastWeek) {
                 break;
             }
