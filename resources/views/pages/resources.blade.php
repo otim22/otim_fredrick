@@ -27,12 +27,11 @@
                 <img src="{{ asset('img/tools/atom.png') }}" alt="Atom icon">
                 <div class="content">
                     <p class="heading-5">
-                        <a href="https://atom.io" target="_blank">Atom</a> <br />
+                        <a href="https://atom.io" class="content-link" target="_blank">Atom</a> <br />
                         An open source constantly updated, favourable and with turns of plugins.
                     </p>
                 </div>
             </div>
-
             <div class="col-1-of-4">
                 <img src="{{ asset('img/tools/vscode.png') }}" alt="VS Code icon">
                 <div class="content">
@@ -71,7 +70,6 @@
                     </p>
                 </div>
             </div>
-
             <div class="col-1-of-4">
                 <img src="{{ asset('img/tools/github.png') }}" alt="Git icon">
                 <div class="content">
@@ -404,7 +402,7 @@
 
     <div class="resource-title">
         <div class="row">
-            <div class="content mr">
+            <div class="content">
                 <p class="heading-3  resource-title__heading">
                     Fonts and Typography
                 </p>
@@ -493,7 +491,7 @@
     </div>
 
     <div class="row">
-        <div class="content">
+        <div class="content mr">
             <p class="heading-3  resource-title__heading">
                 Myriad of Colors.
             </p>
@@ -509,7 +507,6 @@
                 </p>
             </div>
         </div>
-
         <div class="col-1-of-4">
             <img src="{{ asset('img/colors/paletton.png') }}" alt="Paletton icon">
             <div class="content">
@@ -539,53 +536,583 @@
         </div>
     </div>
     <div class="row">
-                <div class="col-1-of-4">
-                    <img src="{{ asset('img/colors/colorhunt.gif') }}" alt="Colorhunt icon">
-                    <div class="content">
-                        <p class="heading-5">
-                            <a href="https://colorhunt.co/" target="_blank">Colorhunt Palettes</a> <br />
-                            Open platform for color inspiration with thousands of hand-picked color palettes.
-                        </p>
-                    </div>
-                </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/colors/colorhunt.gif') }}" alt="Colorhunt icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://colorhunt.co/" target="_blank">Colorhunt Palettes</a> <br />
+                    Open platform for color inspiration with thousands of hand-picked color palettes.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/colors/0to255.png') }}" alt="0to255 icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="http://www.0to255.com" target="_blank">0 to 255</a> <br />
+                    Is a color tool for helping you find lighter and darker colors based on any color.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/colors/coolors.png') }}" alt="Coolors icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://coolors.co/" target="_blank">Coolors</a> <br />
+                    Helps you to be Creative with colors, storing them and sharing your palettes in short time.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/colors/colourco.jpeg') }}" alt="Colourco icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://colourco.de/" target="_blank">Colourco</a> <br />
+                    A colour scheme-mode with monochrome, analogy, complement, triad and quad.
+                </p>
+            </div>
+        </div>
+    </div>
 
-                <div class="col-1-of-4">
-                    <img src="{{ asset('img/colors/0to255.png') }}" alt="0to255 icon">
+    <div class="resource-title">
+        <div class="row">
+            <div class="content">
+                <p class="heading-3  resource-title__heading">
+                    Images and Videos
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                    <img src="{{ asset('img/images/thestocks.jpg') }}" alt="The Stocks icon">
                     <div class="content">
                         <p class="heading-5">
-                            <a href="http://www.0to255.com" target="_blank">0 to 255</a> <br />
-                            Is a color tool for helping you find lighter and darker colors based on any color.
+                            <a href="http://thestocks.im" target="_blank">The Stocks</a> <br />
+                            It has royalty of free stock photos from different resources in one place.
                         </p>
                     </div>
                 </div>
-                <div class="col-1-of-4">
-                    <img src="{{ asset('img/colors/coolors.png') }}" alt="Coolors icon">
+            <div class="col-1-of-4">
+                    <img src="{{ asset('img/images/pixaby.png') }}" alt="pixaby icon">
                     <div class="content">
                         <p class="heading-5">
-                            <a href="https://coolors.co/" target="_blank">Coolors</a> <br />
-                            Helps you to be Creative with colors, storing them and sharing your palettes in short time.
+                            <a href="https://pixabay.com" target="_blank">Pixaby</a> <br />
+                            From photos to vectors and art illustrations all for free to use by someone.
                         </p>
                     </div>
                 </div>
-                <div class="col-1-of-4">
-                    <img src="{{ asset('img/colors/colourco.jpeg') }}" alt="Colourco icon">
+            <div class="col-1-of-4">
+                    <img src="{{ asset('img/images/subtlepatterns.png') }}" alt="subtlepatterns icon">
                     <div class="content">
                         <p class="heading-5">
-                            <a href="https://colourco.de/" target="_blank">Colourco</a> <br />
-                            A colour scheme-mode with monochrome, analogy, complement, triad and quad.
+                            <a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank">Subtle Patterns</a> <br />
+                            Top quality  tilable textured patterns resource, all for free to use.
                         </p>
                     </div>
+                </div>
+            <div class="col-1-of-4">
+                    <img src="{{ asset('img/images/canva.png') }}" alt="canva icon">
+                    <div class="content">
+                        <p class="heading-5">
+                            <a href="https://www.canva.com" target="_blank">Canva</a> <br />
+                            You can create anything and professional layouts. And publish anywhere.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/images/unsplash.svg') }}" alt="unsplash svg">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://unsplash.com" target="_blank">Unsplash</a> <br />
+                        A go to for free high-resolution photos. With 10 new photos every 10 days.
+                    </p>
                 </div>
             </div>
-
-    <div class="resource-title">
-        <h1>Say</h1>
+            <div class="col-1-of-4">
+                <img src="img/images/coverr.png" alt="Coverr Icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="http://www.coverr.co/" target="_blank">Coverr</a> <br />
+                        Beautiful and free videos for your website. With 7 new videos added every monday.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/images/startupstock.png') }}" alt="startupstock  icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="http://startupstockphotos.com" target="_blank">Startup Stock Photos</a> <br />
+                        Many amazing pictures for startup offices, people, devices and more. Worh checking out.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                    <img src="{{ asset('img/images/randomuser.png') }}" alt="randomuser icon">
+                    <div class="content">
+                        <p class="heading-5">
+                            <a href="https://randomuser.me" target="_blank">Random User Generator</a> <br />
+                            An API for generating random user data, including photos. Like Lorem Ipsum, but for people.
+                        </p>
+                    </div>
+                </div>
+        </div>
     </div>
-    
-    <h1>Say</h1>
+
+    <div class="row">
+        <div class="content mr">
+            <p class="heading-3  resource-title__heading">
+                Great Icons
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-4">
+                <img src="{{ asset('img/template-icons/fontawesome.png') }}" alt="fontawesome icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://fontawesome.com/?from=io" target="_blank">Font Awesome</a> <br />
+                        Get vector icons and social logos on your website with Font Awesome.
+                    </p>
+                </div>
+            </div>
+        <div class="col-1-of-4">
+                <img src="{{ asset('img/template-icons/icomoon.png') }}" alt="icomoon icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://icomoon.io" target="_blank">Icomoon </a> <br />
+                        Converts icon fonts to SVG icons and sprites. A great tool to utilize.
+                    </p>
+                </div>
+            </div>
+        <div class="col-1-of-4">
+                <img src="{{ asset('img/template-icons/flaticon.png') }}" alt="flaticon icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.flaticon.com/" target="_blank">Flaticon</a> <br />
+                        The largest free icons available in PNG, SVG, EPS, PSD and BASE 64 formats.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/template-icons/ionicons.png') }}" alt="ionicons icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://ionicons.com" target="_blank">Ionicons</a> <br />
+                         Free Premium designed icons for use in web, iOS, Android, and desktop apps.
+                    </p>
+                </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/template-icons/linea.png') }}" alt="linea icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="http://linea.io" target="_blank">Linea free iconset </a> <br />
+                    Amazing iconset containing 700+ icons, available for different categories.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="img/template-icons/iconmonstr.png" alt="iconmonstr Icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://iconmonstr.com" target="_blank">Iconmonstr</a> <br />
+                    Discover over 4000+ free icons in 305 different collections.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/template-icons/fontastic.png') }}" alt="fantastic  icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="http://fontastic.me/" target="_blank">Fontastic</a> <br />
+                    Over 9,000 icons. Create icon fonts in seconds. Make your website faster.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+                <img src="{{ asset('img/template-icons/iconjar.jpg') }}" alt="iconjar icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://geticonjar.com" target="_blank">Iconjar</a> <br />
+                        Working with Sketch, PS and AI nice Mac app to organize, search and use icons.
+                    </p>
+                </div>
+            </div>
+    </div>
 
     <div class="resource-title">
-        <h1>Say</h1>
+        <div class="row">
+            <div class="content">
+                <p class="heading-3  resource-title__heading">
+                    Inspirations
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/mediaqueries.png') }}" alt="mediaqueries icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://mediaqueri.es" target="_blank">Media Queries</a> <br />
+                        A suit of responsive designed websites to inspire your creative juices.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/calltoidea.png') }}" alt="calltoidea icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.calltoidea.com" target="_blank">Call To idea</a> <br />
+                        Get inspired for commonly used website elements such as forms, sliders, navigations, ...
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/onepagelove.png') }}" alt="onepagelove icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://onepagelove.com" target="_blank">One Page Love</a> <br />
+                        A great place of showcase of inspiration, templates, and articles. Find one page websites.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/landbook.jpg') }}" alt="landbook icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://land-book.com" target="_blank">Land Book</a> <br />
+                        Awesome Landing pages, Portfolios, Stores,  Blogs. Great inspiration resource.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/dribble.png') }}" alt="Dribble icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://dribbble.com" target="_blank">Dribble</a> <br />
+                        A destination to find showcase creative work and repository of world's best designers.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/cssauthor.svg') }}" alt="cssauthor icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://cssauthor.com/inspiration" target="_blank">Css Author</a> <br />
+                            Derived some from a collection of freebies, resources, cms, Coding all in one place.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/inspire/behance.png') }}" alt="behance icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.behance.net/search?content=projects&sort=appreciations&time=week&featured_on_behance=true&search=DESIGN" target="_blank">Behance</a> <br />
+                        Different design templates made by awesome web designers to get inspired.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+            <img src="{{ asset('img/inspire/medium.png') }}" alt="medium icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://medium.muz.li/@RiverCityio" target="_blank">Design digest</a> <br />
+                    Great links about design and interaction all from around the web. Check it out.
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="content mr">
+            <p class="heading-3  resource-title__heading">
+                Communities
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/stackoverflow.png') }}" alt="stackoverflow icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://stackoverflow.com" target="_blank">Stack over flow</a> <br />
+                    Number one programmer community. Ask and find answers to your code problems.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/codrops.png') }}" alt="codrops icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://tympanus.net/codrops" target="_blank">Codrops</a> <br />
+                    Articles and tutorials about latest web trends, techniques and new potentialities.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/medium.png') }}" alt="medium icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://medium.com/" target="_blank">Medium</a> <br />
+                    Another blog for articles on all most every topic name it. Then it check it out.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/smashingmagazine.svg') }}" alt="smashingmagazine icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://www.smashingmagazine.com/" target="_blank">Smashing magazine</a> <br />
+                    Open platform for color inspiration with thousands of hand-picked color palettes.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-4">
+            <img src="img/community/github.png" alt="github icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://github.com" target="_blank">Github</a> <br />
+                    A guide to learn typography basics within a short period of time say 35 minutes.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/reddit.png') }}" alt="reddit icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://www.reddit.com/r/programming/" target="_blank">Reddit</a> <br />
+                    A forum where content is curated and promoted by site members through voting.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/hackerrank.png') }}" alt="HackerRank  icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://www.hackerrank.com/" target="_blank">HackerRank</a> <br />
+                    With over 5 million developers. Practice coding, prepare for interviews, and get hired.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/mdn.png') }}" alt="mdn icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://developer.mozilla.org/en-US/docs/Archive/Mozilla/Web_Developer_Community" target="_blank">Moz Web Dev Community</a> <br />
+                    Connect with devs involved in cross-browser, standards-based web development.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1-of-4">
+            <img src="img/community/scotch.jpeg" alt="scotch icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://scotch.io" target="_blank">Scotch</a> <br />
+                    Practical web development. Code. Eat. Sleep. loop. Check this out.
+
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/tutplus.svg') }}" alt="tutplus icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://code.tutsplus.com" target="_blank">Tuts Plus</a> <br />
+                    1000+ of free tutorials and courses to help you learn software development.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/codeacademy.svg') }}" alt="codecademy  icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://www.codecademy.com" target="_blank">Code Academy</a> <br />
+                    Huge community of developers and premium courses to boost your career.
+                </p>
+            </div>
+        </div>
+        <div class="col-1-of-4">
+            <img src="{{ asset('img/community/sitepoint.jpg') }}" alt="sitepoint icon">
+            <div class="content">
+                <p class="heading-5">
+                    <a href="https://www.sitepoint.com/" target="_blank">Sitepoint</a> <br />
+                    Premium site full of books, videos, and courses for Full Stack Developers.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/community/techchrunch.png') }}" alt="techcrunch icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://techcrunch.com" target="_blank">Techcrunch</a> <br />
+                        Reports on tech businesses, tech news, analysis of emerging trends in tech ...
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/community/toptal.png') }}" alt="toptal icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.toptal.com/web" target="_blank">TopTal</a> <br />
+                        Marketplace where you can find and hire freelance devs, financials ...
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="img/community/udemy.jpeg" alt="udemy icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.udemy.com" target="_blank">Udemy</a> <br />
+                        Online marketplace for great courses and also to create, promote your own.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/community/bitdegree.jpeg') }}" alt="bitdegree  icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.bitdegree.org" target="_blank">Bitdegree</a> <br />
+                        Earn while you learn. Educational platform focusing on teaching digital skills.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <div class="resource-title">
+        <div class="row">
+            <div class="content">
+                <p class="heading-3  resource-title__heading">
+                    Test, optimize and Deploy.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/periodictable.png') }}" alt="periodictable icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://www.newdesigngroup.ca/website-design/web-design-process-infographic" target="_blank">Web Design Process</a> <br />
+                        From project brief to launching the final version. An overview of web design process.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/googledev.png') }}" alt="googledev icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://testmysite.withgoogle.com/intl/en-gb" target="_blank">Google Mobile-Friendly Test</a> <br />
+                        Test your webpage if it has a mobile-friendly design to Google ranking variables.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/googledev.png') }}" alt="googledev icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://developers.google.com/speed/pagespeed/insights" target="_blank">Google PageSpeed Insights</a> <br />
+                        A tool to test your webpage for performance on all possible devices.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/optimize.png') }}" alt="Optimizilla icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://imagecompressor.com" target="_blank">Optimizilla</a> <br />
+                        Up to 20 Compression of JPEG and PNG images to the minimum possible size.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/w3c.png') }}" alt="w3c icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://validator.w3.org" target="_blank">HTML Validator by W3C</a> <br />
+                        Official W3C tool to check for HTML markup if its valid and contains no errors.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/w3c.png') }}" alt="w3c icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://jigsaw.w3.org/css-validator" target="_blank">CSS Validator by W3C</a> <br />
+                        Official W3C tool to check for CSS markup if its valid and contains no errors.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/favicon.png') }}" alt="favicongenerator icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://realfavicongenerator.net" target="_blank">Real favicon Generator</a> <br />
+                        This tool creates favicons for your website for all platforms just submit an image.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/stayintech.png') }}" alt="stayintech icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://stayintech.com/UX" target="_blank">Usability checklist</a> <br />
+                        Useful to catch common usability problems of your website before you deploy.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/googleanalytics.png') }}" alt="googleanalytics icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://marketingplatform.google.com/about/analytics" target="_blank">Google Analytics</a> <br />
+                        Gives you free tools to analyze data, visitors for your business in one place.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/sizzy.png') }}" alt="sizzy icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://sizzy.co" target="_blank">Sizzy </a> <br />
+                        To see your page on multiple devices. Use this tool for results within seconds.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/optimization.png') }}" alt="optimization icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="https://kinsta.com/learn/page-speed/" target="_blank">Web Speed Optimization</a> <br />
+                        In-depth web speed optimization guide showing importance of snappy websites.
+                    </p>
+                </div>
+            </div>
+            <div class="col-1-of-4">
+                <img src="{{ asset('img/test/nibbler.png') }}" alt="nibbler icon">
+                <div class="content">
+                    <p class="heading-5">
+                        <a href="http://nibbler.silktide.com/en_US" target="_blank">Nibbler</a> <br />
+                        Test websites key areas such as accessibility, SEO, social media and technology.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row">
@@ -600,6 +1127,7 @@
             </form>
         </div>
     </div>
+
 </section>
 
 @stop
