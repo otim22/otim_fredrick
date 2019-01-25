@@ -59,6 +59,6 @@
 
 <div class="row">
     <p class="copyright mt-sm mb-sm heading-6">
-        Desined and Built by Otim Fredrick, Uganda. &copy; Copyright (2018 - <?php echo date("Y"); ?>), <a href="#">Terms of Use.</a> | <a href="#">Privacy Policy</a>.
+        Created by Otim Fredrick from The Pearl Of Africa, Uganda. &copy; Copyright (2018 - <?php echo date("Y"); ?>), <a href="#">Terms of Use.</a> | <a href="#">Privacy Policy</a>.
     </p>
 </div>

@@ -1,61 +1,32 @@
 .section-contact {
-    // background-color: #ffb300;
     padding: 5rem;
-    // text-align: center;
-    // background-image: url('../img/bg-01.jpg')
 }
 
 .contact-img {
-    margin: 25px;
+    margin: 2.5rem;
 }
 
 .contact-form {
-  width: 100%;
+  width: 95%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.container-contact-form {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  border-radius: 10px;
-  background: rgba(132,106,221,0.9);
-}
-
-.contact-form {
-  width: 390px;
-}
-
-.contact-form-title {
-  display: block;
-  font-family: inherit;
-  font-size: 28px;
-  color: $color-grey-medium-2;
-  line-height: 1.2;
-  text-align: left;
-  padding-bottom: 36px;
-}
-
 input.input-field {
-  height: 50px;
-  border-radius: 15px;
-  padding: 0 30px 0 50px;
+  height: 5rem;
+  border-radius: .6rem;
+  padding: 0 3rem 0 5rem;
 }
 
 input.input-field[name="email"] {
-  padding: 0 30px 0 54px;
+  padding: 0 3rem 0 5.4rem;
 }
 
 textarea.input-field {
-  min-height: 150px;
-  border-radius: 25px;
-  padding: 14px 30px;
+  min-height: 15.0rem;
+  border-radius: .6rem;
+  padding: 1.4rem 3rem;
 }
 
 /*---------------------------------------------*/
@@ -63,7 +34,7 @@ textarea.input-field {
   position: relative;
   width: 100%;
   z-index: 1;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .input-field {
@@ -71,9 +42,9 @@ textarea.input-field {
   width: 100%;
   background: $color-grey-light-1;
   font-family: inherit;
-  font-size: 18px;
+  font-size: 2rem;
   line-height: 1.5;
-  color: $color-grey-medium;
+  color: $color-primary-dark;
 }
 
 
@@ -82,14 +53,13 @@ textarea.input-field {
 .focus-input {
   display: block;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 2.5rem;
   bottom: 0;
   left: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  box-shadow: 0px 0px 0px 0px;
-  color: rgba(132,106,221, 0.5);
+  box-shadow: 0rem 0rem 0rem 0rem;
 }
 
 .input:focus + .focus-input {
@@ -100,22 +70,16 @@ textarea.input-field {
   display: flex;
   align-items: center;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 2.5rem;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  padding-left: 30px;
+  padding-left: 3rem;
   pointer-events: none;
-  color: #aaaaaa;
-  font-size: 15px;
-
+  color: $color-grey-deep;
+  font-size: 1.5rem;
   transition: all 0.4s;
-}
-
-.input:focus + .focus-input + .symbol-input {
-  color: #846add;
-  padding-left: 22px;
 }
 
 /*------------------------------------------------------------------
@@ -125,28 +89,27 @@ textarea.input-field {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 2rem;
 }
 
 .contact-form-btn {
   width: 100%;
-  height: 55px;
-  border-radius: 25px;
-  background: $color-blue-dark;
+  height: 5.5rem;
+  border-radius: 2.5rem;
+  background: $color-primary;
   font-family: inherit;
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: 1.5;
   color: $color-white;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 25px;
-
+  padding: 0 2.5rem;
   transition: all 0.4s;
 }
 
 .contact-form-btn:hover {
-  background: $color-primary;
+  background: $color-blue-dark;
 }
 
 /*------------------------------------------------------------------
@@ -170,7 +133,7 @@ textarea.input-field {
 
 @media (max-width: 768px) {
   .wrap-contact {
-    padding: 110px 80px 157px 80px;
+    padding: 11rem 8rem 15.7rem 8rem;
   }
 
   .contact-form {
@@ -180,10 +143,9 @@ textarea.input-field {
 
 @media (max-width: 576px) {
   .wrap-contact {
-    padding: 110px 15px 157px 15px;
+    padding: 11rem 1.5rem 15.7rem 1.5rem;
   }
 }
-
 
 /*------------------------------------------------------------------
 [ Alert validate ]*/
@@ -199,15 +161,15 @@ textarea.input-field {
   background-color: white;
   border: 1px solid #c80000;
   border-radius: 13px;
-  padding: 4px 25px 4px 10px;
+  padding: .4rem 2.5rem .4rem 1.0rem;
   top: 50%;
   transform: translateY(-50%);
-  right: 8px;
+  right: .8rem;
   pointer-events: none;
 
   font-family: inherit;
   color: #c80000;
-  font-size: 13px;
+  font-size: 1.3rem;
   line-height: 1.4;
   text-align: left;
 
@@ -223,10 +185,10 @@ textarea.input-field {
   display: block;
   position: absolute;
   color: #c80000;
-  font-size: 15px;
+  font-size: 1.5rem;
   top: 50%;
   transform: translateY(-50%);
-  right: 13px;
+  right: 1.3rem;
 }
 
 .alert-validate:hover:before {
@@ -239,4 +201,19 @@ textarea.input-field {
     visibility: visible;
     opacity: 1;
   }
+}
+
+.contact__divider {
+    margin-top: 5rem;
+    border: .2rem;
+    height: .1rem;
+    background-color: $color-blue-light-2;
+}
+
+.contact__header {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2.3rem;
+    color: $color-grey-light-3;
+    text-transform: uppercase;
 }

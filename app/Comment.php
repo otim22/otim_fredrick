@@ -6,6 +6,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Carbon\Carbon;
 
 class Comment extends Model
 {
@@ -37,7 +38,7 @@ class Comment extends Model
      */
     public function scopeLastWeek(Builder $query): Builder
     {
-        return $query->whereBetween('posted_at', [carbon('1 week ago'), now()])->latest();
+        return $query->whereBetween('posted_at', [Carbon::now()->subWeek(), Carbon::now()])->latest();
     }
 
     /**
@@ -63,4 +64,5 @@ class Comment extends Model
     {
         return $this->belongsTo(Post::class);
     }
+
 }
