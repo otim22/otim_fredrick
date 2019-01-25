@@ -5,15 +5,9 @@
 <section class="section-projects">
 
     <div class="row">
-        <h1 class="heading-3 mb-sm">My projects</h1>
+        <h1 class="heading-3 contact__header">My projects</h1>
         <h2 class="heading-5 mb-md">Some of my most recent works.</h1>
         <hr class="projects__divider mb-md">
-        <!-- <div class="heading mb-md">
-            <button class="btn btn__gallery category" href="" data-rel="all">All</button>
-            <button class="btn btn__gallery category" data-rel="html-css">Html5/Css3</button>
-            <button class="btn btn__gallery category" data-rel="react">React</button>
-            <button class="btn btn__gallery category" data-rel="laravel">Laravel</button>
-        </div> -->
 
         <div class="projects__gallery">
 

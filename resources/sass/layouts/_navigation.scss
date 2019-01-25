@@ -31,6 +31,10 @@
         align-items: center;
     }
 
+    &__link:hover {
+        color: $color-grey-light-3;
+    }
+
     &__logo {
         text-transform: uppercase;
 

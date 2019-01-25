@@ -221,7 +221,7 @@ body {
 }
 .btn__gallery:focus {
   outline: none;
-  border-color: #4867AA;
+  border-color: #074684;
   box-shadow: 0 0 0 3px #424242;
 }
 .btn__header {
@@ -263,7 +263,7 @@ body {
 }
 
 .footer__social a:nth-child(5) {
-  color: #4867AA;
+  color: #074684;
 }
 
 .footer__social i:hover {
@@ -407,7 +407,7 @@ body {
   position: relative;
   font-size: 2rem;
   padding: 0 120px 0;
-  background-color: #37474f;
+  background-color: #0288D1;
 }
 .navigation__list > li {
   display: flex;
@@ -423,6 +423,9 @@ body {
   padding: 25px;
   position: relative;
   align-items: center;
+}
+.navigation__link:hover {
+  color: #576574;
 }
 .navigation__logo {
   text-transform: uppercase;
@@ -443,56 +446,30 @@ body {
 }
 
 .contact-img {
-  margin: 25px;
+  margin: 2.5rem;
 }
 
 .contact-form {
-  width: 100%;
+  width: 95%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
-.container-contact-form {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  border-radius: 10px;
-  background: rgba(132, 106, 221, 0.9);
-}
-
-.contact-form {
-  width: 390px;
-}
-
-.contact-form-title {
-  display: block;
-  font-family: inherit;
-  font-size: 28px;
-  color: #818078;
-  line-height: 1.2;
-  text-align: left;
-  padding-bottom: 36px;
-}
-
 input.input-field {
-  height: 50px;
-  border-radius: 15px;
-  padding: 0 30px 0 50px;
+  height: 5rem;
+  border-radius: 0.6rem;
+  padding: 0 3rem 0 5rem;
 }
 
 input.input-field[name=email] {
-  padding: 0 30px 0 54px;
+  padding: 0 3rem 0 5.4rem;
 }
 
 textarea.input-field {
-  min-height: 150px;
-  border-radius: 25px;
-  padding: 14px 30px;
+  min-height: 15rem;
+  border-radius: 0.6rem;
+  padding: 1.4rem 3rem;
 }
 
 /*---------------------------------------------*/
@@ -500,7 +477,7 @@ textarea.input-field {
   position: relative;
   width: 100%;
   z-index: 1;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .input-field {
@@ -508,9 +485,9 @@ textarea.input-field {
   width: 100%;
   background: #e6e6e6;
   font-family: inherit;
-  font-size: 18px;
+  font-size: 2rem;
   line-height: 1.5;
-  color: #9e9e9e;
+  color: #263238;
 }
 
 /*------------------------------------------------------------------
@@ -518,14 +495,13 @@ textarea.input-field {
 .focus-input {
   display: block;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 2.5rem;
   bottom: 0;
   left: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  box-shadow: 0px 0px 0px 0px;
-  color: rgba(132, 106, 221, 0.5);
+  box-shadow: 0rem 0rem 0rem 0rem;
 }
 
 .input:focus + .focus-input {
@@ -537,21 +513,16 @@ textarea.input-field {
   display: flex;
   align-items: center;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 2.5rem;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  padding-left: 30px;
+  padding-left: 3rem;
   pointer-events: none;
-  color: #aaaaaa;
-  font-size: 15px;
+  color: #424242;
+  font-size: 1.5rem;
   transition: all 0.4s;
-}
-
-.input:focus + .focus-input + .symbol-input {
-  color: #846add;
-  padding-left: 22px;
 }
 
 /*------------------------------------------------------------------
@@ -561,27 +532,27 @@ textarea.input-field {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 2rem;
 }
 
 .contact-form-btn {
   width: 100%;
-  height: 55px;
-  border-radius: 25px;
-  background: #4867AA;
+  height: 5.5rem;
+  border-radius: 2.5rem;
+  background: #0288D1;
   font-family: inherit;
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: 1.5;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 25px;
+  padding: 0 2.5rem;
   transition: all 0.4s;
 }
 
 .contact-form-btn:hover {
-  background: #37474f;
+  background: #074684;
 }
 
 /*------------------------------------------------------------------
@@ -602,7 +573,7 @@ textarea.input-field {
 }
 @media (max-width: 768px) {
   .wrap-contact {
-    padding: 110px 80px 157px 80px;
+    padding: 11rem 8rem 15.7rem 8rem;
   }
 
   .contact-form {
@@ -611,7 +582,7 @@ textarea.input-field {
 }
 @media (max-width: 576px) {
   .wrap-contact {
-    padding: 110px 15px 157px 15px;
+    padding: 11rem 1.5rem 15.7rem 1.5rem;
   }
 }
 /*------------------------------------------------------------------
@@ -627,15 +598,15 @@ textarea.input-field {
   background-color: white;
   border: 1px solid #c80000;
   border-radius: 13px;
-  padding: 4px 25px 4px 10px;
+  padding: 0.4rem 2.5rem 0.4rem 1rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 8px;
+  right: 0.8rem;
   pointer-events: none;
   font-family: inherit;
   color: #c80000;
-  font-size: 13px;
+  font-size: 1.3rem;
   line-height: 1.4;
   text-align: left;
   visibility: hidden;
@@ -649,11 +620,11 @@ textarea.input-field {
   display: block;
   position: absolute;
   color: #c80000;
-  font-size: 15px;
+  font-size: 1.5rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 13px;
+  right: 1.3rem;
 }
 
 .alert-validate:hover:before {
@@ -667,6 +638,21 @@ textarea.input-field {
     opacity: 1;
   }
 }
+.contact__divider {
+  margin-top: 5rem;
+  border: 0.2rem;
+  height: 0.1rem;
+  background-color: #DFEAF0;
+}
+
+.contact__header {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.3rem;
+  color: #576574;
+  text-transform: uppercase;
+}
+
 /* Overall section style starts here */
 .section-home {
   background-color: #fafafa;
@@ -818,7 +804,7 @@ textarea.input-field {
 }
 
 .projects__divider {
-  color: #000;
+  color: #DFEAF0;
   border-bottom: 0;
 }
 
@@ -903,15 +889,21 @@ textarea.input-field {
 }
 
 .section-resources {
-  background-color: #fafafa;
+  background-color: #DFEAF0;
 }
 
 .resources-header {
-  background-color: #fafafa;
+  background: linear-gradient(#0288D1, #818078);
 }
 .resources-header__row {
-  padding: 4rem;
-  text-align: center;
+  padding: 8rem;
+  text-align: justify;
+  color: #e6e6e6;
+}
+.resources-header__par {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  line-height: 150%;
 }
 
 .resource-title {
@@ -920,4 +912,27 @@ textarea.input-field {
 }
 .resource-title__heading {
   padding-top: 5rem;
+  color: #576574;
+  font-weight: 390;
+}
+
+.content-img {
+  padding-bottom: 1rem;
+}
+
+.content-resource {
+  color: #607D8B;
+}
+
+.content-link {
+  text-decoration: none;
+  color: #2e86de;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.content-link:hover {
+  cursor: pointer;
+  color: #222f3e;
+  transition: color 3s ease-out;
 }

@@ -1,13 +1,19 @@
 .section-resources {
-    background-color: $color-grey-light;
+    background-color: $color-blue-light-2;
 }
 
 .resources-header {
-    background-color: $color-grey-light;
+    background: linear-gradient($color-primary, $color-grey-medium-2);
 
     &__row {
-        padding: 4rem;
-        text-align: center;
+        padding: 8rem;
+        text-align: justify;
+        color: $color-grey-light-1;
+    }
+    &__par {
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        line-height: 150%;
     }
 }
 
@@ -17,5 +23,28 @@
 
     &__heading {
         padding-top: 5rem;
+        color: $color-grey-light-3;
+        font-weight: 390;
     }
+}
+
+.content-img {
+    padding-bottom: 1rem;
+}
+
+.content-resource {
+    color: #607D8B;
+}
+
+.content-link {
+    text-decoration: none;
+    color: #2e86de;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.content-link:hover {
+    cursor: pointer;
+    color: #222f3e;
+    transition: color 3s ease-out;
 }
