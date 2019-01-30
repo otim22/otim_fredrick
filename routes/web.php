@@ -11,10 +11,29 @@
 |
 */
 
-Route::get('/', 'HomeController@home')->name('home');
-Route::get('/about', 'HomeController@about')->name('about');
-Route::get('/articles', 'HomeController@articles')->name('articles');
-Route::get('/contact', 'HomeController@contact')->name('contact');
-Route::get('/patreon', 'HomeController@patreon')->name('patreon');
-Route::get('/projects', 'HomeController@projects')->name('projects');
-Route::get('/resources', 'HomeController@resources')->name('resources');
+Route::get('/', 'PageController@home')->name('home');
+Route::get('/about', 'PageController@about')->name('about');
+Route::get('/posts', 'PostController@index')->name('posts');
+Route::get('/contact', 'NewsLetterSubscriptionController@store')->name('contact');
+Route::get('/patreon', 'PageController@patreon')->name('patreon');
+Route::get('/projects', 'PageController@projects')->name('projects');
+Route::get('/resources', 'PageController@resources')->name('resources');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/user/logout','Auth\LoginController@userLogout')->name('user.logout');
+
+//admin route for our multi-auth system
+Route::prefix('admin')->group(function () {
+    Route::get('/', 'AdminController@index')->name('admin.dashboard');
+    Route::get('/login', 'Auth\AdminLoginController@showLoginForm')->name('admin.login');
+    Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+    Route::get('/logout','Auth\AdminLoginController@logout')->name('admin.logout');
+
+    //admin password reset routes
+    Route::post('/password/email','Auth\AdminForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
+    Route::get('/password/reset','Auth\AdminForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
+    Route::post('/password/reset','Auth\AdminResetPasswordController@reset');
+    Route::get('/password/reset/{token}','Auth\AdminResetPasswordController@showResetForm')->name('admin.password.reset');
+});

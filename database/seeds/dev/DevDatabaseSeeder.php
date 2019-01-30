@@ -22,7 +22,7 @@ class DevDatabaseSeeder extends Seeder {
                         'post_id' => $post->id
                     ]);
             });
-            
-        factory(NewsletterSubscription::class, 5)->create();
+
+        factory(NewsletterSubscription::class, 20)->create();
     }
 }
