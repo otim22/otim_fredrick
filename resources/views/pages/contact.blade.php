@@ -8,6 +8,7 @@
         We would love to hear from you.
         <hr class="contact__divider">
     </div>
+
     <div class="row">
         <div class="col-1-of-2">
 			<div class="contact-img">

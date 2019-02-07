@@ -14,6 +14,7 @@
 Route::get('/', 'PageController@home')->name('home');
 Route::get('/about', 'PageController@about')->name('about');
 Route::get('/posts', 'PostController@index')->name('posts');
+Route::get('/post_detail', 'PostController@show')->name('post_detail');
 Route::get('/contact', 'NewsLetterSubscriptionController@store')->name('contact');
 Route::get('/patreon', 'PageController@patreon')->name('patreon');
 Route::get('/projects', 'PageController@projects')->name('projects');

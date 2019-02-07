@@ -10,4 +10,9 @@ class PostController extends Controller
     {
         return view('pages.posts');
     }
+
+    public function show()
+    {
+        return view('pages.post_detail');
+    }
 }

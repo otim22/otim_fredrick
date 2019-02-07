@@ -7,7 +7,13 @@
     <div class="row">
         <h1 class="heading-3 contact__header">My projects</h1>
         <h2 class="heading-5 mb-md">Some of my most recent works.</h1>
-        <hr class="projects__divider mb-md">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Projects</li>
+                </ol>
+            </nav>
+        <hr class="projects__divider mt-md mb-md">
 
         <div class="projects__gallery">
 
@@ -135,5 +141,9 @@
         <a href="https://github.com/otim22" class="btn btn__gallery" target="_blank">More projects</a>
     </div>
 </section>
+
+<div class="subcription section-resources">
+    @include('pages.partials.subscription')
+</div>
 
 @stop

@@ -11,6 +11,12 @@
                 more through to Testing, Optimization and Deployment
                 Resources all put in one place. And it's Here!!
             </p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Resources</li>
+                </ol>
+            </nav>
         </div>
     </div>
 
@@ -1116,16 +1122,7 @@
     </div>
 
     <div class="row">
-        <div class="row subcription__row">
-            <h1 class="heading-3 mb-sm">Stay tune for updates</h1>
-            <h1 class="heading-5 mb-lg">Inspiring and thoughtful emails only.</h1>
-            <form action="#" class="subcription__menu">
-                <input type="email" class="subcription__menu-input" placeholder="name@example.com">
-                <button class="subcription__menu-button">
-                    Subcribe
-                </button>
-            </form>
-        </div>
+        @include('pages.partials.subscription')
     </div>
 
 </section>

@@ -1,0 +1,28 @@
+.section-articles {
+    background-color: $color-white;
+}
+
+.related-post-wrapper {
+    margin-top: 40px;
+}
+
+.tag-and-share {
+    margin-top: 15px;   
+}
+
+.recent-post h5 {
+    font-size: 24px;
+	position: relative;
+	margin-bottom: -10px;
+	padding-bottom: 12px;
+}
+
+.recent-post h5::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 40px;
+	background: $color-grey-dark;
+}

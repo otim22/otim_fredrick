@@ -3,7 +3,7 @@
 @section('content')
 
 <header class="header">
-    @include('includes.header')
+    @include('pages.partials.header')
 </header>
 
 <section class="section-home">
@@ -88,19 +88,73 @@
         </div>
     </div>
 
-    <hr class="quote__divider">
-
-    <div class="subcription">
-        <div class="row subcription__row">
-            <h1 class="heading-3 mb-sm">Stay tune for updates</h1>
-            <h1 class="heading-5 mb-lg">Inspiring and thoughtful emails only.</h1>
-            <form action="#" class="subcription__menu">
-                <input type="email" class="subcription__menu-input" placeholder="name@example.com">
-                <button class="subcription__menu-button">
-                    Subcribe
-                </button>
-            </form>
+    <div class="row">
+        <div class="related-post-wrapper">
+            <div class="recent-post">
+                <h5>Recent Posts</h5>
+            </div>
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="widget">
+                        <div class="sidebar-rc-post">
+                            <div class="rc-post-thumb">
+                                <img src="img/blog/04.jpg" alt="">
+                            </div>
+                            <div class="rc-post-content">
+                                <h5><a href="{{ route('post_detail') }}">Using Visual Composer Website Builder To Create WordPress Websites</a></h5>
+                                <div class="post-meta">
+                                    <ul>
+                                        <li>By OTF</li>
+                                        <li>02 Feb 2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="widget">
+                        <div class="sidebar-rc-post">
+                            <div class="rc-post-thumb">
+                                <img src="img/blog/04.jpg" alt="">
+                            </div>
+                            <div class="rc-post-content">
+                            <h5><a href="{{ route('post_detail') }}">Using Visual Composer Website Builder To Create WordPress Websites</a></h5>
+                            <div class="post-meta">
+                                <ul>
+                                    <li>By OTF</li>
+                                    <li>02 Feb 2019</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="widget">
+                        <div class="sidebar-rc-post">
+                            <div class="rc-post-thumb">
+                                <img src="img/blog/04.jpg" alt="">
+                            </div>
+                            <div class="rc-post-content">
+                            <h5><a href="{{ route('post_detail') }}">Using Visual Composer Website Builder To Create WordPress Websites</a></h5>
+                            <div class="post-meta">
+                                <ul>
+                                    <li>By OTF</li>
+                                    <li>02 Feb 2019</li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <!-- <hr class="quote__divider"> -->
+
+    <div class="subcription section-resources">
+        @include('pages.partials.subscription')
     </div>
 
 </section>
