@@ -3,7 +3,7 @@
 }
 
 .resources-header {
-    background: linear-gradient($color-primary, $color-grey-medium-2);
+    background: linear-gradient($color-primary, $color-blue-medium);
 
     &__row {
         padding: 8rem;
@@ -38,7 +38,7 @@
 
 .content-link {
     text-decoration: none;
-    color: #2e86de;
+    color: $color-blue-medium;
     font-weight: 500;
     font-size: 2rem;
 }
