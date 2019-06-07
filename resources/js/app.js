@@ -3,6 +3,7 @@
 
 // components
 require('./components/projects.js');
+require('./components/loading.js');
 
 //
 // /**

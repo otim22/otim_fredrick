@@ -96,7 +96,9 @@
 // vendor
 // require('./vendor/jquery.min');
 // components
-__webpack_require__(/*! ./components/projects.js */ "./resources/js/components/projects.js"); //
+__webpack_require__(/*! ./components/projects.js */ "./resources/js/components/projects.js");
+
+__webpack_require__(/*! ./components/loading.js */ "./resources/js/components/loading.js"); //
 // /**
 //  * First we will load all of this project's JavaScript dependencies which
 //  * includes Vue and other libraries. It is a great starting point when
@@ -129,6 +131,23 @@ __webpack_require__(/*! ./components/projects.js */ "./resources/js/components/p
 // const app = new Vue({
 //     el: '#app'
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/loading.js":
+/*!********************************************!*\
+  !*** ./resources/js/components/loading.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function ($) {
+  "use strict"; // preloader
+
+  $(window).on('load', function () {
+    $("#loading").fadeOut(3000);
+  });
+})(jQuery);
 
 /***/ }),
 

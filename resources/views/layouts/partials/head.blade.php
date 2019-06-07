@@ -7,7 +7,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<!-- <link href="https://npmcdn.com/basscss@8.0.0/css/basscss.min.css" rel="stylesheet"> -->
+<link href="{{ asset('/admin/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
 <link href="{{ asset('/img/icon/favicon.ico') }}" rel="shortcut icon">
 <link href="{{ asset('/css/app.css') }}" rel="stylesheet">

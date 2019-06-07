@@ -222,7 +222,7 @@
                 </div>
             </div>
             <div class="col-1-of-4">
-                <img src="{{ asset('img/css3/codrops.png') }}"  class="content-img" alt="Sublime text icon">
+                <img src="{{ asset('img/css3/codrops.png') }}"  class="content-img" alt="Codrops icon">
                 <div class="content">
                     <p class="heading-5 content-resource">
                         <a href="https://tympanus.net/codrops/css_reference" class="content-link" target="_blank">Codrops</a> <br /> <br />
@@ -887,7 +887,7 @@
             <div class="content">
                 <p class="heading-5 content-resource">
                     <a href="https://github.com" class="content-link" target="_blank">Github</a> <br /><br />
-                    A guide to learn typography basics within a short period of time say 35 minutes.
+                    With million plus projects, whatever your interests astrophysics, apps the is an open source.
                 </p>
             </div>
         </div>
@@ -926,7 +926,6 @@
                 <p class="heading-5 content-resource">
                     <a href="https://scotch.io" class="content-link" target="_blank">Scotch</a> <br /><br />
                     Practical web development. Code. Eat. Sleep. loop. Check this out.
-
                 </p>
             </div>
         </div>
